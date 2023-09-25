@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AutomaticFeedingModeDialog</class>
+ <widget class="QDialog" name="AutomaticFeedingModeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>517</width>
+    <height>308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MAINSETTING_007</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="Finish_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>270</y>
+     <width>91</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AUTOFEEDMODE_003</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="AutoFeedMode_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>411</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AUTOFEEDMODE_002</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="Icon_toolButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons/icon.qrc">
+     <normaloff>:/bmp_mss_image@2x.png</normaloff>:/bmp_mss_image@2x.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="popupMode">
+    <enum>QToolButton::DelayedPopup</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+   <property name="arrowType">
+    <enum>Qt::NoArrow</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progress_label">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>200</y>
+     <width>231</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PROGRESS_008</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_pushButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>270</y>
+     <width>91</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PROGRESS_017</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="scan_progressBar">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>321</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="maximum">
+    <number>100</number>
+   </property>
+   <property name="value">
+    <number>-1</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Finish_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AutomaticFeedingModeDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>258</x>
+     <y>112</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancel_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AutomaticFeedingModeDialog</receiver>
+   <slot>Cancel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>258</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Cancel()</slot>
+ </slots>
+</ui>

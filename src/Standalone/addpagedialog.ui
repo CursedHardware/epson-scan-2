@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddPageDialog</class>
+ <widget class="QDialog" name="AddPageDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>758</width>
+    <height>221</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ADDPAGE_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QLabel" name="Scan_complete_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>731</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDPAGE_002</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>531</x>
+     <y>185</y>
+     <width>94</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDPAGE_006</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>185</y>
+     <width>94</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDPAGE_005</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Add_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>431</x>
+     <y>185</y>
+     <width>94</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDPAGE_004</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Save_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AddPageDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Add_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AddPageDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Save_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AddPageDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Cancel_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AddPageDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>402</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Add_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AddPageDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onButtonPressed()</slot>
+ </slots>
+</ui>

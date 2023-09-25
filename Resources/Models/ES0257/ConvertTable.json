@@ -1,0 +1,402 @@
+{
+	"ParamTable": [
+		{
+			"Profile": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESProfileTable": {
+										"string": "ESProfile0102"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"GrayBalanceGamma": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESGrayBalanceGammaTable": {
+										"string": "ESProfile1072"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"FunctionalUnit": {
+										"array": [
+											"0"
+										]
+									}
+								}
+							]
+						}
+					],
+					[
+						{
+							"SetParam": [
+								{
+									"ESGrayBalanceGammaTable": {
+										"string": "ESProfile1073"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"FunctionalUnit": {
+										"array": [
+											"1"
+										]
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"USMOperation": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESUSMTable": {
+										"string": "ESUSM0031"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"ClipConst": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESClipConstTable": {
+										"string": "ESClipConst0000"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"ClipCorrect": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESClipCorrectTable": {
+										"string": "ESClipCorrect0000"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"ClipRevise": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESClipReviseTable": {
+										"string": "ESClipRevise0006"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"Moire": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESMoireTable": {
+										"string": "ESMoire2004"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"Descreening": {
+										"array": [
+											"1"
+										]
+									}
+								}
+							]
+						}
+					],
+					[
+						{
+							"SetParam": [
+								{
+									"ESMoireTable": {
+										"string": "ESMoire2005"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"Descreening": {
+										"array": [
+											"2"
+										]
+									}
+								}
+							]
+						}
+					],
+					[
+						{
+							"SetParam": [
+								{
+									"ESMoireTable": {
+										"string": "ESMoire2006"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"Descreening": {
+										"array": [
+											"3"
+										]
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"Resolution": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESResolutionTable": {
+										"string": "ESResolution0003"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"MaxResolution": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESMaxResolutionTable": {
+										"string": "ESMaxResolution0000"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"USMNoise": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESUSMNoiseTable": {
+										"string": "ESUSMNoise0006"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"USMBlur": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESUSMBlurTable": {
+										"string": "ESUSMBlur0000"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"PreviewBW": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESPreviewBWTable": {
+										"string": "ESPreviewBW0002"
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"FilterSequence": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESFilterSequenceTable": {
+										"string": "ESFilterSequence0401"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"FilterSequenceType": {
+										"array": [
+											"0"
+										]
+									}
+								}
+							]
+						}
+					],
+					[
+						{
+							"SetParam": [
+								{
+									"ESFilterSequenceTable": {
+										"string": "ESFilterSequence0402"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"FilterSequenceType": {
+										"array": [
+											"1"
+										]
+									}
+								}
+							]
+						}
+					],
+					[
+						{
+							"SetParam": [
+								{
+									"ESFilterSequenceTable": {
+										"string": "ESFilterSequence0004"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"FilterSequenceType": {
+										"array": [
+											"2"
+										]
+									}
+								}
+							]
+						}
+					],
+					[
+						{
+							"SetParam": [
+								{
+									"ESFilterSequenceTable": {
+										"string": "ESFilterSequence0403"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"FilterSequenceType": {
+										"array": [
+											"3"
+										]
+									}
+								}
+							]
+						}
+					],
+					[
+						{
+							"SetParam": [
+								{
+									"ESFilterSequenceTable": {
+										"string": "ESFilterSequence0400"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"FilterSequenceType": {
+										"array": [
+											"4"
+										]
+									}
+								}
+							]
+						}
+					]
+				]
+			],
+			"DefaultLUT": [
+				[
+					[
+						{
+							"SetParam": [
+								{
+									"ESDefaultLUTTable": {
+										"string": "ESLUT0021"
+									}
+								}
+							],
+							"ConditionParam": [
+								{
+									"ESCurrentMode": {
+										"array": [
+											"1"
+										]
+									}
+								}
+							]
+						}
+					]
+				]
+			]
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

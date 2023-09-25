@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FileNameSettingDialog</class>
+ <widget class="QDialog" name="FileNameSettingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>422</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FILENAMESETTING_001</string>
+  </property>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>198</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+  <widget class="DetectPaperCheckBox" name="File_Counter_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>351</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FILENAMESETTING_007</string>
+   </property>
+  </widget>
+  <widget class="DetectPaperCheckBox" name="Samename_Overwrite_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>351</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FILENAMESETTING_016</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DetectPaperCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>detectpapercheckbox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>File_Counter_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>FileNameSettingDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Samename_Overwrite_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>FileNameSettingDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>118</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>FileNameSettingDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChangedBool(bool)</slot>
+ </slots>
+</ui>

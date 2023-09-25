@@ -1,0 +1,400 @@
+{
+	"HardwareInfo": [
+		{
+			"ESModelName": {
+				"string": "d8aeee7eac1dd98a78653703d5ab91d7c05b6357"
+			},
+			"ESModelID": {
+				"string": "0198"
+			},
+			"ESKind": {
+				"int": "11"
+			},
+			"ESConnectionType": {
+				"int": "2"
+			},
+			"ESProtocol": {
+				"int": "1"
+			},
+			"ESIPv6": {
+				"int": "1"
+			},
+			"ESBitDepth": {
+				"int": "3"
+			},
+			"ESCommandType": {
+				"int": "4"
+			},
+			"ESCommandTypeFlatbedOption": {
+				"int": "0"
+			},
+			"ESMonochromeTET": {
+				"int": "1"
+			},
+			"ESInterrupt": {
+				"int": "1"
+			},
+			"ESGlassDirtyDetection": {
+				"int": "1"
+			},
+			"ESFlatbedType": {
+				"int": "12"
+			},
+			"ESFlatbedOffset": {
+				"int": "0"
+			},
+			"ESLandscapeDirection": {
+				"int": "0"
+			},
+			"ESSWAutoSizeFlatbed": {
+				"int": "2"
+			},
+			"ESReduceBrightness": {
+				"int": "11111"
+			},
+			"ESADFOffset": {
+				"int": "2"
+			},
+			"ESADFWidthMin": {
+				"int": "508"
+			},
+			"ESADFHeightMin": {
+				"int": "690"
+			},
+			"ESADFHeightMax": {
+				"int": "55880"
+			},
+			"ESSWAutoSize": {
+				"int": "1"
+			},
+			"ESCarrierSheet": {
+				"int": "2"
+			},
+			"ESADFCard": {
+				"int": "2"
+			},
+			"ESDefaultDetectDoubleFeed": {
+				"int": "1"
+			},
+			"ESAutoDetectLongPaper": {
+				"int": "1"
+			},
+			"ESHolderRange": {
+				"int": "0"
+			},
+			"ESFilmSizeRange": {
+				"int": "0"
+			},
+			"ESFilmSize": {
+				"int": "0"
+			},
+			"ESTPU2Bit": {
+				"int": "0"
+			},
+			"ESDocumentMode": {
+				"int": "1"
+			},
+			"ESModeDefault": {
+				"int": "1"
+			},
+			"ESEncryptPDF": {
+				"int": "1"
+			},
+			"ESQuietModeType": {
+				"int": "0"
+			},
+			"ESDropOut": {
+				"int": "1"
+			},
+			"ESColorEnhance": {
+				"int": "1"
+			},
+			"ESDocUnsharpExpand": {
+				"int": "1"
+			},
+			"ESDocMoireExpand": {
+				"int": "1"
+			},
+			"ESEdgeFillLevelTop": {
+				"float": "3"
+			},
+			"ESEdgeFillLevelBottom": {
+				"float": "3"
+			},
+			"ESEdgeFillLevelLeft": {
+				"float": "3"
+			},
+			"ESEdgeFillLevelRight": {
+				"float": "3"
+			},
+			"ESRemovePunchHole": {
+				"int": "2"
+			},
+			"ESDefaultScanMode": {
+				"int": "0"
+			},
+			"ESGamma": {
+				"float": "2.2"
+			},
+			"ESDustRemoval": {
+				"int": "1"
+			},
+			"ESFlatbedOption": {
+				"int": "1"
+			},
+			"ESRollerCount": {
+				"int": "1"
+			},
+			"ESUtilAdjustment": {
+				"int": "1"
+			},
+			"ESUtilRestrictFunction": {
+				"int": "1"
+			},
+			"ESVenderID": {
+				"string": "04B8"
+			},
+			"ESProductID": {
+				"string": "0179"
+			},
+			"ESImageClearNotSupport": {
+				"int": "0"
+			},
+			"ESTextEnhancementNotSupport": {
+				"int": "0"
+			},
+			"ESResolutionLimit": {
+				"int": "0"
+			},
+			"ESUSMAndMoireForDoubleImageNotSupport": {
+				"int": "0"
+			},
+			"ESColorAndGrayTextEnhancementNotSupport": {
+				"int": "0"
+			},
+			"ESSocImageProcess": {
+				"int": "0"
+			},
+			"ESImageDefectCorrection": {
+				"int": "0"
+			},
+			"ESOCRPrecision": {
+				"int": "0"
+			},
+			"ESErrorMessageForPassport": {
+				"int": "0"
+			},
+			"ESIdentificationForPassport": {
+				"int": "0"
+			},
+			"ESDDEColorType": {
+				"int": "0"
+			},
+			"ESReadColorTypeWhenGrayOrMono": {
+				"int": "0"
+			},
+			"ESSleepTimeSetting": {
+				"int": "0"
+			},
+			"ESIconFileName": {
+				"string": "ES0197"
+			},
+			"ESVenderName": {
+				"string": "EPSON"
+			},
+			"ESADFPixel": [
+				{
+					"Main": {
+						"int": "0"
+					},
+					"Sub": {
+						"int": "0"
+					}
+				}
+			],
+			"ESStandardPreset": {
+				"array": [
+					"14",
+					"15",
+					"20",
+					"21",
+					"22",
+					"23",
+					"24"
+				]
+			},
+			"ESProductName": {
+				"array_str": [
+					"c6bd13acc0a0cb44eb0e100973d00d25b2163421"
+				]
+			},
+			"ESResolution": [
+				{
+					"Min": {
+						"int": "50"
+					},
+					"Max": {
+						"int": "4800"
+					},
+					"Reflection": {
+						"int": "600"
+					},
+					"Moire": {
+						"int": "600"
+					}
+				}
+			],
+			"ESImp2Name": {
+				"string": "esimp2.dll"
+			},
+			"ESImageFilterName": {
+				"string": "EsImfl6.dll"
+			},
+			"ESDDEName": {
+				"string": "EsDDE6.dll"
+			},
+			"ESDDEADF": {
+				"int": "27"
+			},
+			"ESDDEFlatbed": {
+				"int": "23"
+			},
+			"ESFITName": {
+				"string": "EsFit.dll"
+			},
+			"ESDTRName": {
+				"string": "EsDTR2.dll"
+			},
+			"ESCropName": {
+				"string": "ESCrop.dll"
+			},
+			"ESPDFLibName": {
+				"string": "PDFLib.dll"
+			},
+			"ESPDFExtentionName": {
+				"string": "espdfenc.dll"
+			},
+			"ESOCRName": {
+				"string": "ocrsys.dll"
+			},
+			"ESAODName": {
+				"string": "esaod.dll"
+			}
+		}
+	],
+	"TableInfo": [
+		{
+			"Profile": {
+				"array_str": [
+					"ESProfile0070",
+					"ESProfile0083",
+					"ESProfile0097",
+					"ESProfile0099",
+					"ESProfile0104"
+				]
+			},
+			"GrayBalanceGamma": {
+				"array_str": [
+					"ESProfile0006",
+					"ESProfile1032",
+					"ESProfile1035",
+					"ESProfile1056",
+					"ESProfile1071"
+				]
+			},
+			"USMOperation": {
+				"array_str": [
+					"ESUSM0008"
+				]
+			},
+			"ClipConst": {
+				"array_str": [
+					"ESClipConst0001"
+				]
+			},
+			"ClipCorrect": {
+				"array_str": [
+					"ESClipCorrect0000"
+				]
+			},
+			"ClipRevise": {
+				"array_str": [
+					"ESClipRevise0005"
+				]
+			},
+			"Moire": {
+				"array_str": [
+					"ESMoire2013",
+					"ESMoire2014",
+					"ESMoire2015"
+				]
+			},
+			"DustRemoval": {
+				"array_str": [
+					"ESDustRemoval0000"
+				]
+			},
+			"Resolution": {
+				"array_str": [
+					"ESResolution0030",
+					"ESResolution0031",
+					"ESResolution0162",
+					"ESResolution0177",
+					"ESResolution0178"
+				]
+			},
+			"MaxResolution": {
+				"array_str": [
+					"ESMaxResolution0000"
+				]
+			},
+			"USMNoise": {
+				"array_str": [
+					"ESUSMNoise0002"
+				]
+			},
+			"USMBlur": {
+				"array_str": [
+					"ESUSMBlur0000"
+				]
+			},
+			"PreviewBW": {
+				"array_str": [
+					"ESPreviewBW0002"
+				]
+			},
+			"FilterSequence": {
+				"array_str": [
+					"ESFilterSequence0000",
+					"ESFilterSequence0002",
+					"ESFilterSequence0004",
+					"ESFilterSequence0201",
+					"ESFilterSequence0206"
+				]
+			},
+			"DefaultLUT": {
+				"array_str": [
+					"ESLUT0000",
+					"ESLUT0015",
+					"ESLUT0025",
+					"ESLUT0031"
+				]
+			},
+			"JpegQuality": {
+				"array_str": [
+					"ESJpegQuality0002"
+				]
+			}
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

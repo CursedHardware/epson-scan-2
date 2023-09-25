@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageFormatSettingsDialog</class>
+ <widget class="QDialog" name="ImageFormatSettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IMAGEFORMATOPTION_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>456</x>
+     <y>359</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="Image_Format_frame">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>80</y>
+     <width>521</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QStackedWidget" name="Image_Format_stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>501</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="PNM">
+     <widget class="QLabel" name="no_option_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_003</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="JPEG">
+     <widget class="QLabel" name="Encoding_label">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>19</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_JPG_001</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="High_label">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>130</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_JPG_005</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="High_Quality_label">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>130</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_JPG_006</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Encoding_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>22</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>101</y>
+        <width>461</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="Image_Quality_label">
+         <property name="text">
+          <string>IMAGEFORMATOPTION_JPG_004</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Image_Quality_colon_label">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string notr="true">:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Image_Quality_horizontalSlider">
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>85</number>
+         </property>
+         <property name="sliderPosition">
+          <number>85</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Image_Quality_spinBox">
+         <property name="wrapping">
+          <bool>false</bool>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+         <property name="accelerated">
+          <bool>false</bool>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>85</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QRadioButton" name="Progressive_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>50</y>
+        <width>215</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_JPG_003</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Standard_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>23</y>
+        <width>215</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_JPG_002</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="PNG">
+     <widget class="QLabel" name="no_option_label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>381</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_003</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="TIFF">
+     <widget class="QGroupBox" name="Compression_groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>461</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>IMAGEFORMATOPTION_TIF_010</string>
+      </property>
+      <widget class="QLabel" name="Black_White_label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>53</y>
+         <width>221</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>IMAGEFORMATOPTION_TIF_009</string>
+       </property>
+      </widget>
+      <widget class="TiffCompressionMonoCombobox" name="Black_White_comboBox">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>50</y>
+         <width>191</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Black_White_colon_label">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>49</y>
+         <width>20</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string notr="true">:</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="PDF">
+     <widget class="QLabel" name="Page_Number_label">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>30</y>
+        <width>141</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_PDF_004</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Select_Page_spinBox">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>80</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>999</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page_Number_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>142</x>
+        <y>31</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="High_label_2">
+      <property name="geometry">
+       <rect>
+        <x>99</x>
+        <y>149</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_JPG_005</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="High_Quality_label_2">
+      <property name="geometry">
+       <rect>
+        <x>349</x>
+        <y>149</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_JPG_006</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>461</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="Image_Quality_label_2">
+         <property name="text">
+          <string>IMAGEFORMATOPTION_JPG_004</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Image_Quality_colon_label_2">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string notr="true">:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Image_Quality_horizontalSlider_2">
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>85</number>
+         </property>
+         <property name="sliderPosition">
+          <number>85</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Image_Quality_spinBox_2">
+         <property name="wrapping">
+          <bool>false</bool>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+         <property name="accelerated">
+          <bool>false</bool>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>85</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QRadioButton" name="Select_Page_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>60</y>
+        <width>218</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_PDF_006</string>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="All_Page_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>31</y>
+        <width>218</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_PDF_005</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="no_option_label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMAGEFORMATOPTION_003</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="ImageFormatSettingsCombobox" name="Image_Format_Settings_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>201</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ImageFormatlabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>31</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IMAGEFORMATOPTION_002</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ImageFormat_colon_label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>33</y>
+     <width>16</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string notr="true">:</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ImageFormatSettingsCombobox</class>
+   <extends>QComboBox</extends>
+   <header>imageformatsettingscombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TiffCompressionMonoCombobox</class>
+   <extends>QComboBox</extends>
+   <header>tiffcompressionmonocombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Image_Format_Settings_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ImageFormatSettingsDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ImageFormatSettingsDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Image_Quality_horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Image_Quality_spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>201</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>379</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Image_Quality_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Image_Quality_horizontalSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>379</x>
+     <y>201</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>248</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Select_Page_radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Select_Page_spinBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>222</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Black_White_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ImageFormatSettingsDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>254</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Standard_radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>ImageFormatSettingsDialog</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ImageFormatSettingsDialog</sender>
+   <signal>rejected()</signal>
+   <receiver>ImageFormatSettingsDialog</receiver>
+   <slot>updateUI()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>220</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Image_Quality_spinBox_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Image_Quality_horizontalSlider_2</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>476</x>
+     <y>222</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>347</x>
+     <y>222</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Image_Quality_horizontalSlider_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Image_Quality_spinBox_2</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>347</x>
+     <y>222</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>476</x>
+     <y>222</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(int)</slot>
+  <slot>updateUI()</slot>
+ </slots>
+</ui>

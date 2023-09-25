@@ -1,0 +1,139 @@
+#! /bin/sh
+
+
+ has () {
+      type $1 >/dev/null 2>&1
+ }
+
+
+#  Run a command with root privileges.
+
+as_root () {
+
+    if test -z "$as_root" -a 0 -ne $(id -u) -a -z "$SUDO_USER"; then
+        if $(type sudo >/dev/null 2>&1); then
+            as_root=sudo
+            if $($as_root -A true 2>/dev/null); then
+                as_root="$as_root -A"
+            fi
+        fi
+    fi
+
+    $as_root "$@"
+}
+
+#  Determine package management system.
+
+PKG_MGR=
+if has zypper; then            # 'deb'
+    PKG_MGR=ZYPPER
+elif has apt; then            # 'deb'
+    PKG_MGR=APT
+elif has apt-get; then            # normally absent on RPM-based systems
+    PKG_MGR=APTGET
+elif has dnf; then            # packaged for Debian, as is 'rpm'
+    PKG_MGR=DNF
+elif has yum; then              # packaged for Debian, as is 'rpm'
+    PKG_MGR=YUM
+fi
+
+#  Install required software.
+
+case "$PKG_MGR" in
+	ZYPPER)
+       		pkg_list="$pkg_list boost-filesystem"
+		pkg_list="$pkg_list boost-devel"
+	        pkg_list="$pkg_list libjpeg-turbo-devel"
+	        pkg_list="$pkg_list libtiff-devel"
+		pkg_list="$pkg_list libpng-devel"
+		pkg_list="$pkg_list rapidjson-devel.noarch"
+		pkg_list="$pkg_list libusbx-devel"
+	    	pkg_list="$pkg_list libsane-hpaio"
+		pkg_list="$pkg_list sane-backends-devel"
+	    	pkg_list="$pkg_list libharu"
+		pkg_list="$pkg_list qt-devel"
+		pkg_list="$pkg_list qt5-qtbase-devel"
+		pkg_list="$pkg_list qtsinglecoreapplication-qt5"
+		pkg_list="$pkg_list cmake"
+		pkg_list="$pkg_list make"
+		pkg_list="$pkg_list gcc-c++"
+      		as_root zypper install $pkg_list
+		;;
+	APT)
+       		pkg_list="$pkg_list libboost-filesystem-dev"
+		pkg_list="$pkg_list libjpeg-dev"
+     		pkg_list="$pkg_list libtiff-dev"
+		pkg_list="$pkg_list libpng-dev"
+		pkg_list="$pkg_list rapidjson-dev"
+		pkg_list="$pkg_list libusb-dev"
+		pkg_list="$pkg_list libusb-1.0-0-dev"
+		pkg_list="$pkg_list libsane-dev"
+		pkg_list="$pkg_list libhpdf-dev"
+		pkg_list="$pkg_list qtbase5-dev"
+		pkg_list="$pkg_list libqwt-qt5-dev"
+		pkg_list="$pkg_list cmake"
+		pkg_list="$pkg_list build-essential"
+        	as_root apt -qy install $pkg_list
+		;;
+	APTGET)
+       		pkg_list="$pkg_list libboost-filesystem-dev"
+		pkg_list="$pkg_list libjpeg-dev"
+     		pkg_list="$pkg_list libtiff-dev"
+		pkg_list="$pkg_list libpng-dev"
+		pkg_list="$pkg_list rapidjson-dev"
+		pkg_list="$pkg_list libusb-dev"
+		pkg_list="$pkg_list libusb-1.0-0-dev"
+		pkg_list="$pkg_list libsane-dev"
+		pkg_list="$pkg_list libhpdf-dev"
+		pkg_list="$pkg_list qtbase5-dev"
+		pkg_list="$pkg_list libqwt-qt5-dev"
+		pkg_list="$pkg_list cmake"
+		pkg_list="$pkg_list build-essential"
+        	as_root apt-get -qy install $pkg_list
+		;;
+	DNF)
+       		pkg_list="$pkg_list boost-filesystem"
+		pkg_list="$pkg_list boost-devel"
+	        pkg_list="$pkg_list libjpeg-turbo-devel"
+	        pkg_list="$pkg_list libtiff-devel"
+		pkg_list="$pkg_list libpng-devel"
+		pkg_list="$pkg_list rapidjson-devel.noarch"
+		pkg_list="$pkg_list libusbx-devel"
+	    	pkg_list="$pkg_list libsane-hpaio"
+		pkg_list="$pkg_list sane-backends-devel"
+	    	pkg_list="$pkg_list libharu"
+		pkg_list="$pkg_list qt-devel"
+		pkg_list="$pkg_list qt5-qtbase-devel"
+		pkg_list="$pkg_list qtsinglecoreapplication-qt5"
+		pkg_list="$pkg_list cmake"
+		pkg_list="$pkg_list make"
+		pkg_list="$pkg_list gcc-c++"
+      		as_root dnf install $pkg_list
+		;;
+	YUM)
+       		pkg_list="$pkg_list boost-filesystem"
+		pkg_list="$pkg_list boost-devel"
+	        pkg_list="$pkg_list libjpeg-turbo-devel"
+	        pkg_list="$pkg_list libtiff-devel"
+		pkg_list="$pkg_list libpng-devel"
+		pkg_list="$pkg_list rapidjson-devel.noarch"
+		pkg_list="$pkg_list libusbx-devel"
+	    	pkg_list="$pkg_list libsane-hpaio"
+		pkg_list="$pkg_list sane-backends-devel"
+	    	pkg_list="$pkg_list libharu"
+		pkg_list="$pkg_list qt-devel"
+		pkg_list="$pkg_list qt5-qtbase-devel"
+		pkg_list="$pkg_list qtsinglecoreapplication-qt5"
+		pkg_list="$pkg_list cmake"
+		pkg_list="$pkg_list make"
+		pkg_list="$pkg_list gcc-c++"
+      		as_root yum install $pkg_list
+		;;
+
+
+    *)
+        echo "`basename $0`: Unsupported package management system" >&2
+        exit 119                # Japanese emergency phone number ;-)
+        ;;
+
+esac

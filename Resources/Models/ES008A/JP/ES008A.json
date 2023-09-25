@@ -1,0 +1,311 @@
+{
+	"HardwareInfo": [
+		{
+			"ESModelName": {
+				"string": "89e83296ccf4a427ae02865171d05bbf618b46f9"
+			},
+			"ESModelID": {
+				"string": "008A"
+			},
+			"ESKind": {
+				"int": "12"
+			},
+			"ESConnectionType": {
+				"int": "2"
+			},
+			"ESProtocol": {
+				"int": "0"
+			},
+			"ESBitDepth": {
+				"int": "3"
+			},
+			"ESCommandType": {
+				"int": "1"
+			},
+			"ESCommandTypeFlatbedOption": {
+				"int": "0"
+			},
+			"ESHalftoneProcess": {
+				"int": "1"
+			},
+			"ESHalftoneMode": {
+				"int": "1"
+			},
+			"ESDither": {
+				"int": "1"
+			},
+			"ESTET": {
+				"int": "1"
+			},
+			"ESAAS": {
+				"int": "1"
+			},
+			"ESFlatbedType": {
+				"int": "1"
+			},
+			"ESFlatbedOffset": {
+				"int": "0"
+			},
+			"ESLandscapeDirection": {
+				"int": "0"
+			},
+			"ESReduceBrightness": {
+				"int": "0"
+			},
+			"ESADFOffset": {
+				"int": "0"
+			},
+			"ESADFWidthMin": {
+				"int": "1480"
+			},
+			"ESADFHeightMin": {
+				"int": "1000"
+			},
+			"ESHolderRange": {
+				"int": "0"
+			},
+			"ESFilmSizeRange": {
+				"int": "0"
+			},
+			"ESFilmSize": {
+				"int": "0"
+			},
+			"ESTPU2Bit": {
+				"int": "0"
+			},
+			"ESDocumentMode": {
+				"int": "1"
+			},
+			"ESPhotoMode": {
+				"int": "1"
+			},
+			"ESModeDefault": {
+				"int": "2"
+			},
+			"ESEncryptPDF": {
+				"int": "1"
+			},
+			"ESQuietModeType": {
+				"int": "0"
+			},
+			"ESDropOut": {
+				"int": "1"
+			},
+			"ESColorEnhance": {
+				"int": "1"
+			},
+			"ESEdgeFillLevelTop": {
+				"float": "3"
+			},
+			"ESEdgeFillLevelBottom": {
+				"float": "3"
+			},
+			"ESEdgeFillLevelLeft": {
+				"float": "3"
+			},
+			"ESEdgeFillLevelRight": {
+				"float": "3"
+			},
+			"ESDraftMode": {
+				"int": "1"
+			},
+			"ESDefaultScanMode": {
+				"int": "1"
+			},
+			"ESGamma": {
+				"float": "2.2"
+			},
+			"ESDustRemoval": {
+				"int": "1"
+			},
+			"ESProductID": {
+				"string": "0138"
+			},
+			"ESIconFileName": {
+				"string": "ES008A"
+			},
+			"ESADFPixel": [
+				{
+					"Main": {
+						"int": "0"
+					},
+					"Sub": {
+						"int": "0"
+					}
+				}
+			],
+			"ESStandardPreset": {
+				"array": [
+					"10",
+					"11",
+					"12",
+					"13"
+				]
+			},
+			"ESProductName": {
+				"array_str": [
+					"ES-H7200",
+					"GT-20000"
+				]
+			},
+			"ESProfileName": [
+				{
+					"Reflective": {
+						"string": "Esh7200r.icm"
+					}
+				}
+			],
+			"ESResolution": [
+				{
+					"Min": {
+						"int": "50"
+					},
+					"Max": {
+						"int": "4800"
+					},
+					"Reflection": {
+						"int": "600"
+					},
+					"Moire": {
+						"int": "600"
+					}
+				}
+			],
+			"ESImageFilterName": {
+				"string": "EsImfl.dll"
+			},
+			"ESDDCName": {
+				"string": "EsDDC.dll"
+			},
+			"ESDDEName": {
+				"string": "EsDDE.dll"
+			},
+			"ESDDEADF": {
+				"int": "1"
+			},
+			"ESDDEFlatbed": {
+				"int": "1"
+			},
+			"ESFITName": {
+				"string": "EsFit.dll"
+			},
+			"ESDTRName": {
+				"string": "EsDTR2.dll"
+			},
+			"ESPDFLibName": {
+				"string": "PDFLib.dll"
+			},
+			"ESPDFExtentionName": {
+				"string": "espdfenc.dll"
+			},
+			"ESOCRName": {
+				"string": "ocrsys.dll"
+			},
+			"ESAODName": {
+				"string": "esaod.dll"
+			}
+		}
+	],
+	"TableInfo": [
+		{
+			"Profile": {
+				"array_str": [
+					"ESProfile0055"
+				]
+			},
+			"GrayBalanceGamma": {
+				"array_str": [
+					"ESProfile1036"
+				]
+			},
+			"USMOperation": {
+				"array_str": [
+					"ESUSM0000"
+				]
+			},
+			"ClipConst": {
+				"array_str": [
+					"ESClipConst0000"
+				]
+			},
+			"ClipCorrect": {
+				"array_str": [
+					"ESClipCorrect0000"
+				]
+			},
+			"ClipRevise": {
+				"array_str": [
+					"ESClipRevise0000"
+				]
+			},
+			"Moire": {
+				"array_str": [
+					"ESMoire0031",
+					"ESMoire0032",
+					"ESMoire0040"
+				]
+			},
+			"DustRemoval": {
+				"array_str": [
+					"ESDustRemoval0000"
+				]
+			},
+			"Resolution": {
+				"array_str": [
+					"ESResolution0174"
+				]
+			},
+			"MaxResolution": {
+				"array_str": [
+					"ESMaxResolution0000"
+				]
+			},
+			"USMNoise": {
+				"array_str": [
+					"ESUSMNoise0001"
+				]
+			},
+			"USMBlur": {
+				"array_str": [
+					"ESUSMBlur0000"
+				]
+			},
+			"DraftRes": {
+				"array_str": [
+					"ESResolution0174"
+				]
+			},
+			"PreviewBW": {
+				"array_str": [
+					"ESPreviewBW0000"
+				]
+			},
+			"FilterSequence": {
+				"array_str": [
+					"ESFilterSequence0000",
+					"ESFilterSequence0001",
+					"ESFilterSequence0002",
+					"ESFilterSequence0004",
+					"ESFilterSequence0006"
+				]
+			},
+			"DefaultLUT": {
+				"array_str": [
+					"ESLUT0000",
+					"ESLUT0001",
+					"ESLUT0002"
+				]
+			}
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

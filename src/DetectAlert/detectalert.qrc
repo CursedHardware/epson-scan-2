@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>escan2_app.ico</file>
+    </qresource>
+</RCC>

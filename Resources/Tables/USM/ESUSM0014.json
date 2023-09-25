@@ -1,0 +1,80 @@
+{
+	"USM": [
+		[
+			[
+				{
+					"Resolution": {
+						"int": "100"
+					},
+					"Strength": {
+						"int": "978000"
+					},
+					"Radius": {
+						"int": "10"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "800"
+					},
+					"Strength": {
+						"int": "1659000"
+					},
+					"Radius": {
+						"int": "10"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "4800"
+					},
+					"Strength": {
+						"int": "9883000"
+					},
+					"Radius": {
+						"int": "36"
+					},
+					"Clipping": {
+						"int": "10"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "99999"
+					},
+					"Strength": {
+						"int": "9883000"
+					},
+					"Radius": {
+						"int": "36"
+					},
+					"Clipping": {
+						"int": "10"
+					}
+				}
+			]
+		]
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

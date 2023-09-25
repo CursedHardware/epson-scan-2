@@ -1,0 +1,126 @@
+{
+	"filterSequence": [
+		[
+			[
+				{
+					"id": {
+						"int": "10000"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1000"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1127"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1008"
+					},
+					"uniqueSerial": {
+						"int": "1"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1023"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1002"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1003"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1004"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1036"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1005"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "10001"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			]
+		]
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

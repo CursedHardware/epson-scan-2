@@ -1,0 +1,3848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>488</width>
+    <height>690</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>COMMON_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>31</y>
+      <width>451</width>
+      <height>418</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>MAINSETTING_001</string>
+     </attribute>
+     <widget class="Document_Source" name="Document_source_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>6</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>111</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_3">
+       <widget class="Document_Size" name="Document_size_comb">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>4</y>
+          <width>201</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="maxVisibleItems">
+         <number>50</number>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="Document_Size" name="Document_size_comb_2">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>4</y>
+          <width>131</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="maxVisibleItems">
+         <number>50</number>
+        </property>
+       </widget>
+       <widget class="HorizonDoctoolButton" name="Horizontal_doc_toolButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>0</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="palette">
+         <palette>
+          <active>
+           <colorrole role="WindowText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Button">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Light">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Midlight">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Dark">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Mid">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>123</red>
+              <green>161</green>
+              <blue>170</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Text">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="BrightText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Window">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Shadow">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="AlternateBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>220</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </active>
+          <inactive>
+           <colorrole role="WindowText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Button">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Light">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Midlight">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Dark">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Mid">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>123</red>
+              <green>161</green>
+              <blue>170</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Text">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="BrightText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Window">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Shadow">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="AlternateBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>220</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </inactive>
+          <disabled>
+           <colorrole role="WindowText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Button">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Light">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Midlight">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Dark">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Mid">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>123</red>
+              <green>161</green>
+              <blue>170</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Text">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="BrightText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Window">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Shadow">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="AlternateBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>220</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </disabled>
+         </palette>
+        </property>
+        <property name="toolTip">
+         <string notr="true"/>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons/icon.qrc">
+          <normaloff>:/yokot.png</normaloff>:/yokot.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonIconOnly</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+        <property name="arrowType">
+         <enum>Qt::NoArrow</enum>
+        </property>
+       </widget>
+       <widget class="VerticalDoctoolButton" name="Vertical_doc_toolButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>0</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="palette">
+         <palette>
+          <active>
+           <colorrole role="WindowText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Button">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Light">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Midlight">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Dark">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Mid">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>123</red>
+              <green>161</green>
+              <blue>170</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Text">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="BrightText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Window">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Shadow">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="AlternateBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>220</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </active>
+          <inactive>
+           <colorrole role="WindowText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Button">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Light">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Midlight">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Dark">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Mid">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>123</red>
+              <green>161</green>
+              <blue>170</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Text">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="BrightText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Window">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Shadow">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="AlternateBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>220</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </inactive>
+          <disabled>
+           <colorrole role="WindowText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Button">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Light">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Midlight">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>219</red>
+              <green>248</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Dark">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Mid">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>123</red>
+              <green>161</green>
+              <blue>170</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Text">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="BrightText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>92</red>
+              <green>121</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Window">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="Shadow">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="AlternateBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>184</red>
+              <green>242</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipBase">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>220</blue>
+             </color>
+            </brush>
+           </colorrole>
+           <colorrole role="ToolTipText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </disabled>
+         </palette>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons/icon.qrc">
+          <normaloff>:/tatet.png</normaloff>:/tatet.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonIconOnly</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Scanning_side_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>21</x>
+        <y>88</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Document_source_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>9</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_002</string>
+      </property>
+     </widget>
+     <widget class="Scanning_Side" name="Scanning_side_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>87</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Document_size_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>116</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_012</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Dpi_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>332</x>
+        <y>186</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_019</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Resolution_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>184</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_018</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Rotate_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>212</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_020</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Image_type_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>154</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_013</string>
+      </property>
+     </widget>
+     <widget class="Image_Type" name="Image_type_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>154</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Resolution" name="Resolution_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>183</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+      <property name="maxCount">
+       <number>12800</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+      </property>
+     </widget>
+     <widget class="DeskewCheckbox" name="Deskew_checkbox">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>239</y>
+        <width>411</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>MAINSETTING_050</string>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_045</string>
+      </property>
+     </widget>
+     <widget class="RotateComb" name="Rotate_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>211</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>136</y>
+        <width>401</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Detect_double_page_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>297</y>
+        <width>231</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CONFIG_DOC_003</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Skip_blank_pages_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>326</y>
+        <width>231</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_034</string>
+      </property>
+     </widget>
+     <widget class="DetectDoubleFeedComb" name="Detect_double_feed_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>296</y>
+        <width>161</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>MAINSETTING_053</string>
+      </property>
+     </widget>
+     <widget class="AddpagesCheckbox" name="Ad_pages_checkbox">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>272</y>
+        <width>411</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>LINUX_MAINSETTING_002</string>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_047</string>
+      </property>
+     </widget>
+     <widget class="SkipblankpagesComb" name="Skip_blank_pages_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>325</y>
+        <width>161</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>MAINSETTING_052</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>257</y>
+        <width>401</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Doc_source_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>9</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Scanning_side_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>89</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Document_size_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>118</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Image_type_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>157</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Resolution_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>186</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Rotate_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>214</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Skip_blank_pages_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>328</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Detect_double_page_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>299</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="BackgroundColorCombobox" name="Background_color_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>354</y>
+        <width>161</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>MAINSETTING_069</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Background_color_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>355</y>
+        <width>231</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_068</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Background_color_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>356</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="AutomaticFeedingModeCombobox" name="Automatic_feeding_mode_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>60</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>MAINSETTING_048</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Automatic_feeding_mode_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>63</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Automatic_feeding_mode_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>57</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MAINSETTING_007</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Document_type_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>36</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Document_type_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>36</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PHOTO_MAIN_007</string>
+      </property>
+     </widget>
+     <widget class="Document_Type" name="Document_type_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>33</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>ADVANCEDSETTING_001</string>
+     </attribute>
+     <widget class="QLabel" name="Image_option_label">
+      <property name="geometry">
+       <rect>
+        <x>4</x>
+        <y>30</y>
+        <width>151</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_004</string>
+      </property>
+     </widget>
+     <widget class="RemoveBackComboBox" name="RemoveBack_comboBox">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>188</x>
+        <y>100</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+     <widget class="DropoutCombobox" name="Dropout_comboBox">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>351</x>
+        <y>54</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="image_type_stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>421</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>10</y>
+          <width>391</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="Threshold_label">
+           <property name="text">
+            <string>ADVANCEDSETTING_033</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Document_size_colon_label_2">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string notr="true">:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="ThresholdSlider" name="Threshold_hSlider">
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="toolTip">
+            <string>ADVANCEDSETTING_077</string>
+           </property>
+           <property name="maximum">
+            <number>255</number>
+           </property>
+           <property name="value">
+            <number>110</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="Threshold_spinBox">
+           <property name="minimum">
+            <number>0</number>
+           </property>
+           <property name="maximum">
+            <number>255</number>
+           </property>
+           <property name="value">
+            <number>110</number>
+           </property>
+           <property name="displayIntegerBase">
+            <number>10</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>9</y>
+          <width>401</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="Brightness_label">
+           <property name="text">
+            <string>ADVANCEDSETTING_030</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Brightness_colon_label">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string notr="true">:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="BrightnessSlider" name="Brightness_hSlider">
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="toolTip">
+            <string>PHOTO_ADVANCED_045</string>
+           </property>
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="Brightness_spinBox">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="singleStep">
+            <number>1</number>
+           </property>
+           <property name="value">
+            <number>0</number>
+           </property>
+           <property name="displayIntegerBase">
+            <number>10</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>401</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="Contrast_label">
+           <property name="text">
+            <string>ADVANCEDSETTING_031</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Contrast_colon_label">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string notr="true">:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="ContrastSlider" name="Contrast_hSlider">
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="toolTip">
+            <string>PHOTO_ADVANCED_046</string>
+           </property>
+           <property name="autoFillBackground">
+            <bool>true</bool>
+           </property>
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="invertedAppearance">
+            <bool>false</bool>
+           </property>
+           <property name="invertedControls">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="Contrast_spinBox">
+           <property name="minimum">
+            <number>-100</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="displayIntegerBase">
+            <number>10</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>401</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="Gamma_label">
+           <property name="text">
+            <string>ADVANCEDSETTING_032</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Gamma_colon_label">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string notr="true">:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="GammaSlider" name="Gamma_hSlider">
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="mouseTracking">
+            <bool>false</bool>
+           </property>
+           <property name="toolTip">
+            <string>ADVANCEDSETTING_076</string>
+           </property>
+           <property name="autoFillBackground">
+            <bool>true</bool>
+           </property>
+           <property name="minimum">
+            <number>5</number>
+           </property>
+           <property name="maximum">
+            <number>30</number>
+           </property>
+           <property name="singleStep">
+            <number>1</number>
+           </property>
+           <property name="pageStep">
+            <number>10</number>
+           </property>
+           <property name="value">
+            <number>22</number>
+           </property>
+           <property name="tracking">
+            <bool>true</bool>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="invertedAppearance">
+            <bool>false</bool>
+           </property>
+           <property name="invertedControls">
+            <bool>false</bool>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::NoTicks</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="GammaDoubleSpinBox" name="Gamma_doubleSpinBox">
+           <property name="decimals">
+            <number>1</number>
+           </property>
+           <property name="minimum">
+            <double>0.500000000000000</double>
+           </property>
+           <property name="maximum">
+            <double>3.000000000000000</double>
+           </property>
+           <property name="singleStep">
+            <double>0.100000000000000</double>
+           </property>
+           <property name="value">
+            <double>2.200000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Image_option_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>32</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="NoneRadioButton" name="None_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>32</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_005</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ImageOption_buttonGroup</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="Dropout_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>56</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>ADVANCEDSETTING_068</string>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_010</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ImageOption_buttonGroup</string>
+      </attribute>
+     </widget>
+     <widget class="RemoveBackRadioButton" name="RemoveBack_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>80</y>
+        <width>271</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>ADVANCEDSETTING_065</string>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_062</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ImageOption_buttonGroup</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="TextEnhance_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>130</y>
+        <width>271</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>ADVANCEDSETTING_066</string>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_006</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ImageOption_buttonGroup</string>
+      </attribute>
+     </widget>
+     <widget class="QStackedWidget" name="TextEnhance_stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>150</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="ColorGray_page">
+       <widget class="TextEnhanceCombobox" name="TextEnhance_comboBox">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>1</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="Mono_page">
+       <widget class="QPushButton" name="TextEnhance_Setting_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>1</y>
+          <width>111</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ADVANCEDSETTING_083</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="remove_punch_holes_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_050</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="remove_punch_holes_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>313</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="RemovePunchHoles" name="remove_punch_holes_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>310</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="edge_correction_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>340</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="EdgeCorrection" name="edge_correction_comb">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>340</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="edge_correction_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>340</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADVANCEDSETTING_114</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="ImageFormatComb" name="Image_format_comb">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>461</y>
+      <width>221</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="FolderComb" name="Folder_comb">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>521</y>
+      <width>191</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAtBottom</enum>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Image_format_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>462</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FILESAVESETTING_001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="File_name_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>492</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FILESAVESETTING_010</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Folder_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>522</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FILESAVESETTING_012</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="File_extension_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>393</x>
+      <y>494</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LINUX_FILESAVESETTING_006</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Configuration_toolButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>557</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>CONFIG_001</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons/icon.qrc">
+      <normaloff>:/btn_config@2x.png</normaloff>:/btn_config@2x.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonIconOnly</enum>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="PrefixLineedit" name="Prefix_lineEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>490</y>
+      <width>191</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>FILENAMESETTING_004</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string notr="true">img</string>
+    </property>
+    <property name="maxLength">
+     <number>64</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="cursorPosition">
+     <number>3</number>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string notr="true">img</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="DeviceNameStackedWidget" name="Device_name_stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>-6</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Dev_select_page">
+     <widget class="DeviceSelectorCombobox" name="Device_selector_comb">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+      <property name="maxVisibleItems">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="device_name_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>11</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>COMMON_002</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="device_name_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>13</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Dev_progress_page">
+     <widget class="QLabel" name="Connecting_label">
+      <property name="geometry">
+       <rect>
+        <x>109</x>
+        <y>5</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook L</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string notr="true">Connecting the scanner</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QToolButton" name="Folder_toolButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>394</x>
+      <y>517</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons/icon.qrc">
+      <normaloff>:/savefolder.png</normaloff>:/savefolder.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonIconOnly</enum>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="Scan_Button_stackedWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>546</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_scan">
+     <widget class="ScanButton" name="Scan_Button">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>FILESAVESETTING_018</string>
+      </property>
+     </widget>
+     <widget class="PreviewButton" name="Preview_Button">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>FILESAVESETTING_017</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_save">
+     <widget class="QPushButton" name="Save_pushButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SAVESETTING_003</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="Image_format_colon_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>464</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="File_name_colon_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>494</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Folder_colon_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>524</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">:</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Help_toolButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>557</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>FILESAVESETTING_021</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons/icon.qrc">
+      <normaloff>:/btn_help.png</normaloff>:/btn_help.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonIconOnly</enum>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="FileNameSetting_toolButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>433</x>
+      <y>492</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons/icon.qrc">
+      <normaloff>:/savefolder.png</normaloff>:/savefolder.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonIconOnly</enum>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>Device_name_stackedWidget</zorder>
+   <zorder>tabWidget</zorder>
+   <zorder>Image_format_comb</zorder>
+   <zorder>Folder_comb</zorder>
+   <zorder>Image_format_label</zorder>
+   <zorder>File_name_label</zorder>
+   <zorder>Folder_label</zorder>
+   <zorder>File_extension_label</zorder>
+   <zorder>Configuration_toolButton</zorder>
+   <zorder>Prefix_lineEdit</zorder>
+   <zorder>Folder_toolButton</zorder>
+   <zorder>Scan_Button_stackedWidget</zorder>
+   <zorder>Image_format_colon_label</zorder>
+   <zorder>File_name_colon_label</zorder>
+   <zorder>Folder_colon_label</zorder>
+   <zorder>Help_toolButton</zorder>
+   <zorder>FileNameSetting_toolButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>488</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="title">
+     <string>ES2U_MAIN_004</string>
+    </property>
+    <addaction name="actionAboutEpsonScan2"/>
+    <addaction name="action_Exit"/>
+   </widget>
+   <addaction name="menu_file"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAboutEpsonScan2">
+   <property name="text">
+    <string>VERSION_001</string>
+   </property>
+  </action>
+  <action name="action_Exit">
+   <property name="text">
+    <string>MENU_007</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ThresholdSlider</class>
+   <extends>QSlider</extends>
+   <header>thresholdslider.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Resolution</class>
+   <extends>QComboBox</extends>
+   <header>resolution.h</header>
+  </customwidget>
+  <customwidget>
+   <class>RotateComb</class>
+   <extends>QComboBox</extends>
+   <header>rotate.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DeskewCheckbox</class>
+   <extends>QCheckBox</extends>
+   <header>deskewcheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AddpagesCheckbox</class>
+   <extends>QCheckBox</extends>
+   <header>addpagescheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SkipblankpagesComb</class>
+   <extends>QComboBox</extends>
+   <header>skipblankpagescomb.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DetectDoubleFeedComb</class>
+   <extends>QComboBox</extends>
+   <header>detectdoublefeedcomb.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ImageFormatComb</class>
+   <extends>QComboBox</extends>
+   <header>imageformatcomb.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FolderComb</class>
+   <extends>QComboBox</extends>
+   <header>foldercomb.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Document_Source</class>
+   <extends>QComboBox</extends>
+   <header>documentsource.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Scanning_Side</class>
+   <extends>QComboBox</extends>
+   <header>scanningside.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Document_Size</class>
+   <extends>QComboBox</extends>
+   <header>documentsize.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Image_Type</class>
+   <extends>QComboBox</extends>
+   <header>imagetype.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PrefixLineedit</class>
+   <extends>QLineEdit</extends>
+   <header>prefixlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NoneRadioButton</class>
+   <extends>QRadioButton</extends>
+   <header>noneradiobutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>RemoveBackRadioButton</class>
+   <extends>QRadioButton</extends>
+   <header>removebackradiobutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>RemoveBackComboBox</class>
+   <extends>QComboBox</extends>
+   <header>removebackcombobox.h</header>
+   <slots>
+    <slot>set_enabled(bool)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>DropoutCombobox</class>
+   <extends>QComboBox</extends>
+   <header>dropoutcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>BrightnessSlider</class>
+   <extends>QSlider</extends>
+   <header>brightnessslider.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ContrastSlider</class>
+   <extends>QSlider</extends>
+   <header>contrastslider.h</header>
+  </customwidget>
+  <customwidget>
+   <class>GammaSlider</class>
+   <extends>QSlider</extends>
+   <header>gammaslider.h</header>
+   <slots>
+    <slot>setGammaSlider(double)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>GammaDoubleSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>gammadoublespinbox.h</header>
+   <slots>
+    <slot>setGamma(int)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>ScanButton</class>
+   <extends>QPushButton</extends>
+   <header>scanbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DeviceSelectorCombobox</class>
+   <extends>QComboBox</extends>
+   <header>deviceselectorcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DeviceNameStackedWidget</class>
+   <extends>QStackedWidget</extends>
+   <header>devicenamestackedwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HorizonDoctoolButton</class>
+   <extends>QToolButton</extends>
+   <header>horizondoctoolbutton.h</header>
+   <slots>
+    <slot>button_event(bool)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>VerticalDoctoolButton</class>
+   <extends>QToolButton</extends>
+   <header>verticaldoctoolbutton.h</header>
+   <slots>
+    <slot>button_event(bool)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>AutomaticFeedingModeCombobox</class>
+   <extends>QComboBox</extends>
+   <header>automaticfeedingmodecombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>BackgroundColorCombobox</class>
+   <extends>QComboBox</extends>
+   <header>backgroundcolorcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PreviewButton</class>
+   <extends>QPushButton</extends>
+   <header>previewbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TextEnhanceCombobox</class>
+   <extends>QComboBox</extends>
+   <header>textenhancecombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>RemovePunchHoles</class>
+   <extends>QComboBox</extends>
+   <header>removepunchholes.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Document_Type</class>
+   <extends>QComboBox</extends>
+   <header>documenttype.h</header>
+  </customwidget>
+  <customwidget>
+   <class>EdgeCorrection</class>
+   <extends>QComboBox</extends>
+   <header>edgecorrection.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Brightness_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Brightness_hSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>438</x>
+     <y>294</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>374</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Contrast_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Contrast_hSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>324</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>373</x>
+     <y>321</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Folder_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>260</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Image_format_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>260</x>
+     <y>499</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Image_type_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>272</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Resolution_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>250</x>
+     <y>276</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Rotate_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>272</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Deskew_checkbox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>328</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Ad_pages_checkbox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>262</x>
+     <y>361</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Skip_blank_pages_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>418</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Detect_double_feed_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Prefix_lineEdit</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>EditFinishText()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>528</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Contrast_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Contrast_spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>321</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>324</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Brightness_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Brightness_spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>374</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>438</x>
+     <y>294</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RemoveBack_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>193</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Dropout_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>147</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Brightness_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>374</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Contrast_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>321</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Gamma_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>382</x>
+     <y>351</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Gamma_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Gamma_doubleSpinBox</receiver>
+   <slot>setGamma(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>382</x>
+     <y>351</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Gamma_doubleSpinBox</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>Gamma_hSlider</receiver>
+   <slot>setGammaSlider(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>354</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>382</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Threshold_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Threshold_spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>370</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>430</x>
+     <y>294</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Threshold_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Threshold_hSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>294</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>370</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Threshold_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>370</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Configuration_toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onConfiguration_Button_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>577</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>84</x>
+     <y>619</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Device_selector_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>42</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RemoveBack_radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Dropout_radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Dropout_comboBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Folder_toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onFolder_Button_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>394</x>
+     <y>537</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>action_Exit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>None_radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>121</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Dropout_radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Document_source_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>270</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Vertical_doc_toolButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Vertical_doc_toolButton</receiver>
+   <slot>button_event(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Scanning_side_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>272</x>
+     <y>180</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Vertical_doc_toolButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Horizontal_doc_toolButton</receiver>
+   <slot>button_event(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Horizontal_doc_toolButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Vertical_doc_toolButton</receiver>
+   <slot>button_event(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Document_size_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>272</x>
+     <y>208</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Horizontal_doc_toolButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Horizontal_doc_toolButton</receiver>
+   <slot>button_event(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Save_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>210</x>
+     <y>576</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Save_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onSave_Button_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>210</x>
+     <y>576</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAboutEpsonScan2</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onAbout_Epson_Scan2_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>324</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Help_toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onHelp_Button_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>577</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>324</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Automatic_feeding_mode_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>352</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Background_color_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>372</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>FileNameSetting_toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onFileNameSetting_Button_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>443</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>316</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>TextEnhance_radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>TextEnhance_Setting_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onTextEnhanceSetting_Button_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>TextEnhance_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>268</x>
+     <y>232</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>454</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>remove_punch_holes_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>338</x>
+     <y>392</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Document_type_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>348</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>edge_correction_comb</sender>
+   <signal>activated(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>281</x>
+     <y>426</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>344</x>
+     <y>624</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(int)</slot>
+  <slot>onValueChangedQstr(QString)</slot>
+  <slot>onValueChangedBool(bool)</slot>
+  <slot>EditFinishText()</slot>
+  <slot>DeviceChanged(int)</slot>
+  <slot>onFolder_Button_pressed()</slot>
+  <slot>onAbout_Epson_Scan2_pressed()</slot>
+  <slot>onConfiguration_Button_pressed()</slot>
+  <slot>onSave_Button_pressed()</slot>
+  <slot>onHelp_Button_pressed()</slot>
+  <slot>onFileNameSetting_Button_pressed()</slot>
+  <slot>onTextEnhanceSetting_Button_pressed()</slot>
+ </slots>
+ <buttongroups>
+  <buttongroup name="ImageOption_buttonGroup">
+   <property name="exclusive">
+    <bool>true</bool>
+   </property>
+  </buttongroup>
+ </buttongroups>
+</ui>

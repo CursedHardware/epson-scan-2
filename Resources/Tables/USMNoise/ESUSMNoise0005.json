@@ -1,0 +1,80 @@
+{
+	"USMNoise": [
+		{
+			"Reflective": [
+				{
+					"ShadowLow": {
+						"int": "0"
+					},
+					"ShadowHigh": {
+						"int": "0"
+					},
+					"HighlightHigh": {
+						"int": "0"
+					},
+					"HighlightLow": {
+						"int": "0"
+					}
+				}
+			],
+			"ColorNega": [
+				{
+					"ShadowLow": {
+						"int": "0"
+					},
+					"ShadowHigh": {
+						"int": "0"
+					},
+					"HighlightHigh": {
+						"int": "0"
+					},
+					"HighlightLow": {
+						"int": "0"
+					}
+				}
+			],
+			"MonoNega": [
+				{
+					"ShadowLow": {
+						"int": "0"
+					},
+					"ShadowHigh": {
+						"int": "0"
+					},
+					"HighlightHigh": {
+						"int": "0"
+					},
+					"HighlightLow": {
+						"int": "0"
+					}
+				}
+			],
+			"Output": [
+				{
+					"ShadowLow": {
+						"int": "0"
+					},
+					"ShadowHigh": {
+						"int": "28"
+					},
+					"HighlightHigh": {
+						"int": "1000"
+					},
+					"HighlightLow": {
+						"int": "1000"
+					}
+				}
+			]
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

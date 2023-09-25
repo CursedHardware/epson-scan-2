@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WaitingDialog</class>
+ <widget class="QDialog" name="WaitingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>457</width>
+    <height>71</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MENU_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QLabel" name="Waiting_Message_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>5</y>
+     <width>421</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string notr="true">waiting message ...</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>30</y>
+     <width>341</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>0</number>
+   </property>
+   <property name="value">
+    <number>-1</number>
+   </property>
+   <property name="format">
+    <string notr="true">%p%</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,53 @@
+
+  epsonscan2 - Simple Image Acquisition
+
+  Copyright (C) 2018  SEIKO EPSON CORPORATION
+
+Please read out the license and Privacy Statement(http://download.ebz.epson.net/ps/linux/).
+
+  SUMMARY
+  =======
+    This software provides applications to easily turn hard-copy
+    documents and imagery into formats that are more amenable to
+    computer processing.
+
+    Included are a native driver for a number of EPSON scanners
+    and a compatibility driver to interface with software built
+    around the SANE standard.
+
+
+  LICENSING
+  =========
+    This software is distributed under the terms of the GNU Lesser General
+    Public License, version 2.1 or at your option any later version.
+    A copy of this license can be found in the 'COPYING' file.
+
+
+USING THE SOFTWARE
+==================
+  The software can be started from a command-line with the `epsonscan2`
+  command.  This will automatically select a suitable application to
+  control image acquisition and select the default device.  The GUI
+  supports selecting a different device should you want to.
+
+  In case you installed from a binary package, chances are that the
+  binary package maintainer integrated the software in the desktop
+  menu system.  If so, you can probably start up the GUI from there.
+
+  NETWORK SUPPORT
+  ---------------
+    Most, if not all, of the above devices can be used via a network
+    connection.  If you want to do so with this software, install the
+    non-free-plugin package.  This plugin is available via the
+    EPSON Download Center[1].
+
+    [1] http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+
+  REQUIRED SOFTWARE
+  -----------------
+    In order to be able to build all components and test (and do so in
+    a variety of configurations) a large number of developer oriented
+    software packages are needed.
+    To make getting all that software on your system a bit easier, the
+    sources include a script to install all these packages for you (install-deps).
+

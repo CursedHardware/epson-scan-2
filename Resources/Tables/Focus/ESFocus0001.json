@@ -1,0 +1,21 @@
+{
+	"Focus": [
+		"multi_array": [
+			[
+				"2",
+				"0",
+				"25"
+			]
+		]
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

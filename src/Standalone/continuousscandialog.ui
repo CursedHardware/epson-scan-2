@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ContinuousScanDialog</class>
+ <widget class="QDialog" name="ContinuousScanDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>367</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>COMMON_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Resources/Icons/escan2_app.ico</normaloff>../../Resources/Icons/escan2_app.ico</iconset>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>30</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Stop_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>331</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONFIRMCONTINUE_005</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>331</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONFIRMCONTINUE_004</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Continue_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>331</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONFIRMCONTINUE_003</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="last_scanimage_label">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>6</y>
+     <width>251</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONFIRMCONTINUE_006</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="continuous_label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>341</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONFIRMCONTINUE_008</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="Icon_toolButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>41</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons/icon.qrc">
+     <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="popupMode">
+    <enum>QToolButton::DelayedPopup</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+   <property name="arrowType">
+    <enum>Qt::NoArrow</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>30</y>
+     <width>211</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="noimage_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CONFIRMCONTINUE_007</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="ADFSpecialErrorMessageForPassport_label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>311</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONFIRMCONTINUE_014</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>continuous_label</zorder>
+  <zorder>Stop_pushButton</zorder>
+  <zorder>Save_pushButton</zorder>
+  <zorder>Continue_pushButton</zorder>
+  <zorder>last_scanimage_label</zorder>
+  <zorder>Icon_toolButton</zorder>
+  <zorder>frame</zorder>
+  <zorder>graphicsView</zorder>
+  <zorder>ADFSpecialErrorMessageForPassport_label</zorder>
+ </widget>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Save_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ContinuousScanDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>269</x>
+     <y>309</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Continue_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ContinuousScanDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>309</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Stop_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ContinuousScanDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>309</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onButtonPressed()</slot>
+ </slots>
+</ui>

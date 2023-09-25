@@ -1,0 +1,15 @@
+{
+	"ClipConst": {
+		"int": "15000"
+	},
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Categories=Application;Graphics;RasterGraphics;Scanning;GTK;
+
+Name=Epson Scan 2
+GenericName=Epson Scan 2
+
+Exec=/usr/bin/epsonscan2
+Terminal=false
+Icon=/usr/lib/i386-linux-gnu/epsonscan2/Resources/Icons/escan2_app.ico
+Name[ja_JP]=epsonscan2

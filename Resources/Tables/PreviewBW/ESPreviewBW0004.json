@@ -1,0 +1,25 @@
+{
+	"PreviewBW": [
+		{
+			"R": {
+				"int": "11"
+			},
+			"G": {
+				"int": "15"
+			},
+			"B": {
+				"int": "6"
+			}
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

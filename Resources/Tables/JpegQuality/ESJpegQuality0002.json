@@ -1,0 +1,30 @@
+{
+	"JpegQuality": [
+		{
+			"Resolution": {
+				"array": [
+					"50",
+					"300",
+					"600"
+				]
+			},
+			"Quality": {
+				"array": [
+					"90",
+					"80",
+					"90"
+				]
+			}
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

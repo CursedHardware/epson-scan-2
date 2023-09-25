@@ -1,0 +1,79 @@
+{
+	"LUT": [
+		{
+			"red": [
+				{
+					"shadowIn": {
+						"int": "41"
+					},
+					"highlightIn": {
+						"int": "210"
+					},
+					"shadowOut": {
+						"int": "10"
+					},
+					"highlightOut": {
+						"int": "255"
+					},
+					"gamma": {
+						"float": "1.07"
+					}
+				}
+			],
+			"green": [
+				{
+					"shadowIn": {
+						"int": "41"
+					},
+					"highlightIn": {
+						"int": "210"
+					},
+					"shadowOut": {
+						"int": "10"
+					},
+					"highlightOut": {
+						"int": "255"
+					},
+					"gamma": {
+						"float": "1.07"
+					}
+				}
+			],
+			"blue": [
+				{
+					"shadowIn": {
+						"int": "41"
+					},
+					"highlightIn": {
+						"int": "210"
+					},
+					"shadowOut": {
+						"int": "10"
+					},
+					"highlightOut": {
+						"int": "255"
+					},
+					"gamma": {
+						"float": "1.07"
+					}
+				}
+			],
+			"ESPhotoShadowCurve": {
+				"int": "2"
+			},
+			"ESPhotoHighlightCurve": {
+				"int": "1"
+			}
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

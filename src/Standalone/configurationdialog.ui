@@ -1,0 +1,2172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfigurationDialog</class>
+ <widget class="QDialog" name="ConfigurationDialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>585</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CONFIG_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>561</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="information_tab">
+    <attribute name="title">
+     <string>ES2U_MAIN_004</string>
+    </attribute>
+    <widget class="QLabel" name="Serialno_label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>78</y>
+       <width>211</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_MAIN_005</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Serialno_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>80</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Serialno_value_label">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>77</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>xxxxx</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Firmware_version_value_label">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>107</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>xxxxx</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Firmware_version_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>110</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Firmware_version_label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>108</y>
+       <width>211</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_MAIN_006</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="general_tab">
+    <attribute name="title">
+     <string>CONFIG_GENERAL_001</string>
+    </attribute>
+    <widget class="QLabel" name="Units_label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>141</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONFIG_GENERAL_002</string>
+     </property>
+    </widget>
+    <widget class="UnitsComboBox" name="Units_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>29</y>
+       <width>211</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="LastUsedCheckBox" name="Last_Used_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>60</y>
+       <width>381</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONFIG_GENERAL_005</string>
+     </property>
+    </widget>
+    <widget class="OpenImgFolderAfterScanCheckBox" name="Open_Img_Folder_after_scan_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>90</y>
+       <width>381</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONFIG_SAVEFILE_002</string>
+     </property>
+    </widget>
+    <widget class="TransferDataAfterCompCheckBox" name="Transfer_data_after_comp_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>120</y>
+       <width>381</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONFIG_SCAN_004</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Doc_source_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>32</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="QualityPreviewCheckbox" name="Quality_Preview_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>151</y>
+       <width>381</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONFIG_PREVIEW_002</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Preview_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>152</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Preview_label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>141</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONFIG_PREVIEW_001</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="counter_tab">
+    <attribute name="title">
+     <string>ES2U_MAIN_009</string>
+    </attribute>
+    <widget class="QGroupBox" name="Scan_Counter_groupBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>5</y>
+       <width>531</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>ES2U_MAIN_010</string>
+     </property>
+     <widget class="QLabel" name="Scanner_Glass_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>23</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_011</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Scanner_Glass_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>23</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ADF_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>42</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>ES2U_MAIN_012</string>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_012</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ADF_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>42</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Single_Sided_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>61</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_013</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Single_Sided_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>61</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Double_Sided_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>81</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_014</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Double_Sided_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>81</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Carrier_Sheet_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>100</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Carrier_Sheet_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>102</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_054</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Card_Slot_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>119</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_051</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Card_Slot_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>119</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Paper_Jam_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>139</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Paper_Jam_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>139</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_015</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Double_Feed_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>159</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Double_Feed_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>160</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_016</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Scanner_Glass_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>25</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ADF_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>44</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Single_Sided_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>63</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Double_Sided_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>83</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Carrier_Sheet_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>102</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Card_Slot_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>121</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Paper_Jam_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>141</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Double_Feed_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>162</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Paper_Protection_cnt_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>181</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Paper_Protection_cnt_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>179</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_058</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Paper_Protection_cnt_num_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>178</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_008</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QStackedWidget" name="Counter_stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>212</y>
+       <width>551</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <widget class="QGroupBox" name="Separation_Pad_groupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>85</y>
+         <width>511</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>ES2U_MAIN_060</string>
+       </property>
+       <widget class="QPushButton" name="Reset_pushButton2">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>25</y>
+          <width>101</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_020</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_cnt_label2">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>29</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_008</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_label2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>26</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_018</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Life_Cyde_label2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_019</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Life_Cyde_cnt_label2">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>52</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_008</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_colon_label_3">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>29</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string notr="true">:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Life_Cyde_colon_label_3">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>52</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string notr="true">:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="Pickup_Pad_groupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>1</y>
+         <width>511</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>ES2U_MAIN_049</string>
+       </property>
+       <widget class="QPushButton" name="Reset_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>26</y>
+          <width>101</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_020</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_cnt_label">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>30</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_008</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_label">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>27</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_018</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Life_Cyde_label">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_019</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Life_Cyde_cnt_label">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>53</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_008</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_colon_label_2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>29</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string notr="true">:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Life_Cyde_colon_label_2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>52</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string notr="true">:</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QGroupBox" name="Roller_Assembly_Kit_groupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>1</y>
+         <width>511</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>ES2U_MAIN_017</string>
+       </property>
+       <widget class="QPushButton" name="Counter_Reset_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>25</y>
+          <width>101</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_020</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_cnt_label3">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>27</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_008</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_label3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>27</y>
+          <width>181</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ES2U_MAIN_018</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Number_Of_Scans_colon_label">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>29</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string notr="true">:</string>
+        </property>
+       </widget>
+       <widget class="QStackedWidget" name="Count_Alert_stackedWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>491</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_3">
+         <widget class="QLabel" name="Life_Cyde_cnt_label3">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>0</y>
+            <width>181</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>ES2U_MAIN_008</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Life_Cyde_label3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>0</y>
+            <width>181</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>ES2U_MAIN_019</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Life_Cyde_colon_label">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>2</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="toolTip">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">:</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_4">
+         <widget class="QLabel" name="Count_Alert_Setting_num_label">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>0</y>
+            <width>181</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>ES2U_MAIN_065</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Count_Alert_Setting_num_colon_label">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>2</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="toolTip">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">:</string>
+          </property>
+         </widget>
+         <widget class="SleepTimerSpinBox" name="Count_Alert_Setting_num_spinBox">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>0</y>
+            <width>121</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="maximum">
+           <number>200000</number>
+          </property>
+          <property name="singleStep">
+           <number>1000</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="power_saving_tab">
+    <attribute name="title">
+     <string>ES2U_MAIN_021</string>
+    </attribute>
+    <widget class="QLabel" name="Sleep_Timer_label">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>34</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_MAIN_022</string>
+     </property>
+    </widget>
+    <widget class="SleepTimerSpinBox" name="Sleep_Timer_spinBox">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>33</y>
+       <width>121</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="Power_Off_Timer_groupBox">
+     <property name="geometry">
+      <rect>
+       <x>46</x>
+       <y>70</y>
+       <width>461</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>ES2U_MAIN_024</string>
+     </property>
+     <widget class="QLabel" name="AC_Power_label">
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>30</y>
+        <width>241</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_056</string>
+      </property>
+     </widget>
+     <widget class="ACPowerComboBox" name="AC_Power_comboBox">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>28</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="BatteryPowerComboBox" name="Battery_Power_comboBox">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>60</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Battery_Power_label">
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>60</y>
+        <width>241</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_057</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="AC_Power_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>31</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Battery_Power_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>63</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="Sleep_Timer_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>36</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Direct_Power_On_label">
+     <property name="geometry">
+      <rect>
+       <x>64</x>
+       <y>220</y>
+       <width>241</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_SCANNER_012</string>
+     </property>
+    </widget>
+    <widget class="NonConnectPowerOffCombobox" name="Power_Off_If_Disconnected_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>188</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Power_Off_If_Disconnected_label">
+     <property name="geometry">
+      <rect>
+       <x>64</x>
+       <y>190</y>
+       <width>241</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_MAIN_061</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Direct_Power_On_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>316</x>
+       <y>223</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Power_Off_If_Disconnected_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>316</x>
+       <y>191</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="DirectPowerOnCombobox" name="Direct_Power_On_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>220</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="maintenance_tab">
+    <attribute name="title">
+     <string>ES2U_MAIN_027</string>
+    </attribute>
+    <widget class="QGroupBox" name="Regular_Cleaning_groupBox">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>461</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>ES2U_MAIN_062</string>
+     </property>
+     <widget class="QLabel" name="Number_of_Scans_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>62</y>
+        <width>211</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_064</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Count_Alert_Setting_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>92</y>
+        <width>211</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_065</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Number_of_Scans_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>63</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Count_Alert_Setting_colon_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>95</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Regular_Cleaning_Alert_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>381</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_063</string>
+      </property>
+     </widget>
+     <widget class="SleepTimerSpinBox" name="Count_Alert_Setting_spinBox">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>90</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="maximum">
+       <number>200000</number>
+      </property>
+      <property name="singleStep">
+       <number>1000</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Maintenance_Reset_pushButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>58</y>
+        <width>81</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ES2U_MAIN_020</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Number_of_Scans_num_label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>60</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="scanner_setting_tab">
+    <attribute name="title">
+     <string>ES2U_SCANNER_001</string>
+    </attribute>
+    <widget class="QLabel" name="Detect_Glass_Dirt_label">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>241</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_SCANNER_002</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Detect_Glass_Dirt_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>362</x>
+       <y>41</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="SensorGlassDirtSensitivityCombobox" name="Detect_Glass_Dirt_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>38</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Paper_Protection_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>362</x>
+       <y>82</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Paper_Protection_label">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>81</y>
+       <width>241</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_SCANNER_007</string>
+     </property>
+    </widget>
+    <widget class="ADFPaperProtectionCombobox" name="Paper_Protection_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>79</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Double_Feed_Stop_Timing_label">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>121</y>
+       <width>241</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_SCANNER_009</string>
+     </property>
+    </widget>
+    <widget class="BehaviorWhenDoubleFeedCombobox" name="Double_Feed_Stop_Timing_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>119</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Double_Feed_Stop_Timing_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>362</x>
+       <y>122</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="other_tab">
+    <attribute name="title">
+     <string>ES2U_MAIN_043</string>
+    </attribute>
+    <widget class="QPushButton" name="Other_Reset_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>51</y>
+       <width>111</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_MAIN_045</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Reset_label">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>52</y>
+       <width>321</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ES2U_MAIN_044</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Reset_colon_label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>54</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">:</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>439</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Unlock_pushButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>439</y>
+     <width>151</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>ES2U_MAIN_068</string>
+   </property>
+   <property name="text">
+    <string>ES2U_MAIN_067</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UnitsComboBox</class>
+   <extends>QComboBox</extends>
+   <header>unitscombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LastUsedCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>lastusedcheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TransferDataAfterCompCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>transferdataaftercompcheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>OpenImgFolderAfterScanCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>openimgfolderafterscancheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SleepTimerSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>sleeptimerspinbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ACPowerComboBox</class>
+   <extends>QComboBox</extends>
+   <header>acpowercombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>BatteryPowerComboBox</class>
+   <extends>QComboBox</extends>
+   <header>batterypowercombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QualityPreviewCheckbox</class>
+   <extends>QCheckBox</extends>
+   <header>qualitypreviewcheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ADFPaperProtectionCombobox</class>
+   <extends>QComboBox</extends>
+   <header>adfpaperprotectioncombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SensorGlassDirtSensitivityCombobox</class>
+   <extends>QComboBox</extends>
+   <header>sensorglassdirtsensitivitycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>BehaviorWhenDoubleFeedCombobox</class>
+   <extends>QComboBox</extends>
+   <header>behaviorwhendoublefeedcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NonConnectPowerOffCombobox</class>
+   <extends>QComboBox</extends>
+   <header>nonconnectpoweroffcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DirectPowerOnCombobox</class>
+   <extends>QComboBox</extends>
+   <header>directpoweroncombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>429</x>
+     <y>429</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Units_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>188</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>89</x>
+     <y>426</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Last_Used_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>225</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>495</x>
+     <y>12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Sleep_Timer_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>79</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>447</x>
+     <y>5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AC_Power_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>162</x>
+     <y>434</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Battery_Power_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>498</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Other_Reset_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>297</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Open_Img_Folder_after_scan_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>282</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Transfer_data_after_comp_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>272</x>
+     <y>132</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Counter_Reset_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Quality_Preview_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>372</x>
+     <y>193</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Detect_Glass_Dirt_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>82</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Paper_Protection_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Double_Feed_Stop_Timing_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Power_Off_If_Disconnected_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>413</x>
+     <y>232</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Direct_Power_On_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>413</x>
+     <y>264</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Count_Alert_Setting_num_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>292</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Count_Alert_Setting_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>372</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Regular_Cleaning_Alert_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>272</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Maintenance_Reset_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>472</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Reset_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>462</x>
+     <y>285</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Reset_pushButton2</sender>
+   <signal>pressed()</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>462</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Unlock_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>ConfigurationDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>451</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(int)</slot>
+  <slot>onValueChangedBool(bool)</slot>
+  <slot>PushButtonAction()</slot>
+ </slots>
+</ui>

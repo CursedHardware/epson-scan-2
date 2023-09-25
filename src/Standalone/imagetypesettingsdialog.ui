@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageTypeSettingsDialog</class>
+ <widget class="QDialog" name="ImageTypeSettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>524</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MAINSETTING_073</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>471</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="ImageType_Adjustment_label">
+      <property name="text">
+       <string>MAINSETTING_082</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ImageType_Adjustment_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="SkipBlankPagesDetLvSlider" name="ImageType_Adjustment_horizontalSlider">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>4</number>
+      </property>
+      <property name="pageStep">
+       <number>1</number>
+      </property>
+      <property name="value">
+       <number>2</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>379</x>
+     <y>260</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+  <widget class="PaperThicknessComboBox" name="Detection_Color_Auto_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>69</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Detection_Color_Auto_colon_label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>72</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string notr="true">:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Detection_Color_Auto_label">
+   <property name="geometry">
+    <rect>
+     <x>33</x>
+     <y>70</y>
+     <width>201</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MAINSETTING_074</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="More_Gray_label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MAINSETTING_083</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="More_BW_label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>190</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MAINSETTING_084</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SkipBlankPagesDetLvSlider</class>
+   <extends>QSlider</extends>
+   <header>skipblankpagesdetlvslider.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PaperThicknessComboBox</class>
+   <extends>QComboBox</extends>
+   <header>paperthicknesscombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>ImageTypeSettingsDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>269</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Detection_Color_Auto_comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>ImageTypeSettingsDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>292</x>
+     <y>79</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ImageType_Adjustment_horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ImageTypeSettingsDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(int)</slot>
+ </slots>
+</ui>

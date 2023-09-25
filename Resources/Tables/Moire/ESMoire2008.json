@@ -1,0 +1,82 @@
+{
+	"Moire": [
+		[
+			[
+				{
+					"TargetResolution": {
+						"int": "250"
+					},
+					"ProcessResolution": {
+						"int": "300"
+					},
+					"RequiredResolution": {
+						"int": "600"
+					},
+					"Radius": {
+						"int": "12"
+					},
+					"Strength": {
+						"int": "21"
+					},
+					"Clipping": {
+						"int": "1024"
+					}
+				}
+			],
+			[
+				{
+					"TargetResolution": {
+						"int": "360"
+					},
+					"ProcessResolution": {
+						"int": "400"
+					},
+					"RequiredResolution": {
+						"int": "600"
+					},
+					"Radius": {
+						"int": "14"
+					},
+					"Strength": {
+						"int": "16"
+					},
+					"Clipping": {
+						"int": "1024"
+					}
+				}
+			],
+			[
+				{
+					"TargetResolution": {
+						"int": "600"
+					},
+					"ProcessResolution": {
+						"int": "600"
+					},
+					"RequiredResolution": {
+						"int": "600"
+					},
+					"Radius": {
+						"int": "16"
+					},
+					"Strength": {
+						"int": "6"
+					},
+					"Clipping": {
+						"int": "1024"
+					}
+				}
+			]
+		]
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

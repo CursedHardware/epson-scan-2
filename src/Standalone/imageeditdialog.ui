@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageEditDialog</class>
+ <widget class="QDialog" name="ImageEditDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1214</width>
+    <height>673</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EDITPAGE_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="rotateLeft">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>45</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons/icon.qrc">
+     <normaloff>:/btn_multipage_rotate_left90@2x.png</normaloff>:/btn_multipage_rotate_left90@2x.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rotateRight">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>45</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons/icon.qrc">
+     <normaloff>:/btn_multipage_rotate_right90@2x.png</normaloff>:/btn_multipage_rotate_right90@2x.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removeButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>45</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons/icon.qrc">
+     <normaloff>:/btn_multipage_delete@2x.png</normaloff>:/btn_multipage_delete@2x.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>620</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>ADDPAGE_006</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addButton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>620</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>EDITPAGE_008</string>
+   </property>
+  </widget>
+  <widget class="ImageEditView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>1181</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1181</width>
+     <height>531</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1181</width>
+     <height>531</height>
+    </size>
+   </property>
+   <property name="backgroundBrush">
+    <brush brushstyle="SolidPattern">
+     <color alpha="100">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>620</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>ADDPAGE_005</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ImageEditView</class>
+   <extends>QGraphicsView</extends>
+   <header>imageeditview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>addButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ImageEditDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>924</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>saveButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ImageEditDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1024</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancelButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ImageEditDialog</receiver>
+   <slot>onButtonPressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1124</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ImageEditDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>924</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>saveButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ImageEditDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1024</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>saveButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ImageEditDialog</receiver>
+   <slot>on_saveButton_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1024</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onButtonPressed()</slot>
+  <slot>on_saveButton_clicked()</slot>
+ </slots>
+</ui>

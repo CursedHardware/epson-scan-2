@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TextEnhanceSettingDialog</class>
+ <widget class="QDialog" name="TextEnhanceSettingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>457</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ADVANCEDSETTING_084</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>391</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="textEnhanceSensitivity_horizontalLayout">
+    <item>
+     <widget class="QLabel" name="textEnhanceSensitivity_label">
+      <property name="text">
+       <string>ADVANCEDSETTING_089</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="textEnhanceSensitivity_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="ThresholdSlider" name="textEnhanceSensitivity_hSlider">
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>ADVANCEDSETTING_077</string>
+      </property>
+      <property name="minimum">
+       <number>-50</number>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+      <property name="pageStep">
+       <number>1</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="textEnhanceSensitivity_spinBox">
+      <property name="minimum">
+       <number>-50</number>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="displayIntegerBase">
+       <number>10</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>391</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="thresholdAdjustment_horizontalLayout">
+    <item>
+     <widget class="QLabel" name="thresholdAdjustment_label">
+      <property name="text">
+       <string>ADVANCEDSETTING_086</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="thresholdAdjustment_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="ThresholdSlider" name="thresholdAdjustment_hSlider">
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>ADVANCEDSETTING_077</string>
+      </property>
+      <property name="minimum">
+       <number>-50</number>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+      <property name="pageStep">
+       <number>1</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="thresholdAdjustment_spinBox">
+      <property name="minimum">
+       <number>-50</number>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="displayIntegerBase">
+       <number>10</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>391</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="textEnhanceNoiseReductionLevel_horizontalLayout">
+    <item>
+     <widget class="QLabel" name="textEnhanceNoiseReductionLevel_label">
+      <property name="text">
+       <string>ADVANCEDSETTING_087</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="textEnhanceNoiseReductionLevel_colon_label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string notr="true">:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="ThresholdSlider" name="textEnhanceNoiseReductionLevel_hSlider">
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>ADVANCEDSETTING_077</string>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>1</number>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="textEnhanceNoiseReductionLevel_spinBox">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>5</number>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+      <property name="displayIntegerBase">
+       <number>10</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QCheckBox" name="textEnhancePaperCreaseReduction_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>301</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADVANCEDSETTING_088</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>299</x>
+     <y>270</y>
+     <width>121</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ThresholdSlider</class>
+   <extends>QSlider</extends>
+   <header>thresholdslider.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>textEnhanceSensitivity_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>textEnhanceSensitivity_hSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>394</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>textEnhanceSensitivity_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>textEnhanceSensitivity_spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>textEnhanceSensitivity_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>TextEnhanceSettingDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>TextEnhanceSettingDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>379</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>thresholdAdjustment_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>thresholdAdjustment_hSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>394</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>thresholdAdjustment_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>thresholdAdjustment_spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>226</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>thresholdAdjustment_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>TextEnhanceSettingDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>226</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>textEnhanceNoiseReductionLevel_spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>textEnhanceNoiseReductionLevel_hSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>400</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>textEnhanceNoiseReductionLevel_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>textEnhanceNoiseReductionLevel_spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>400</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>textEnhanceNoiseReductionLevel_hSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>TextEnhanceSettingDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(int)</slot>
+ </slots>
+</ui>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DocumentSizeSettingDialog</class>
+ <widget class="QDialog" name="DocumentSizeSettingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>80</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MAINSETTING_045</string>
+  </property>
+  <widget class="AutoCroppingInscribedCheckBox" name="Black_edge_inscribed_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>441</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MAINSETTING_86</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>50</y>
+     <width>131</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AutoCroppingInscribedCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>autocroppinginscribedcheckbox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Black_edge_inscribed_checkBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>DocumentSizeSettingDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>28</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>230</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>DocumentSizeSettingDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>230</x>
+     <y>39</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChangedBool(bool)</slot>
+ </slots>
+</ui>

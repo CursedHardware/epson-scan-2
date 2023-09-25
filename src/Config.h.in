@@ -1,0 +1,36 @@
+//  Copyright (C) 2018-2022  SEIKO EPSON CORPORATION
+//
+//  License: LGPL-2.1+
+//  Author : SEIKO EPSON CORPORATION
+//
+//  This file is part of the 'Epson Scan 2' package.
+//	 This library is free software; you can redistribute it and/or
+//  modify it under the terms of the GNU Lesser General Public
+//  License as published by the Free Software Foundation; either
+//  version 2.1 of the License, or (at your option) any later version.
+
+//  This library is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+//  Lesser General Public License for more details.
+//  
+//  Config.h -- template and derived ESC/I ESC/I-2 protocol commands
+
+//epson original path
+#cmakedefine EPSONSCAN_PATH "@EPSONSCAN_PATH@"
+#cmakedefine EPSON_INSTALL_PATH "@EPSON_INSTALL_PATH@"
+#cmakedefine EPSON_WORK_PATH "@EPSON_WORK_PATH@"
+
+//common path
+#cmakedefine COMMON_ETC_PATH "@COMMON_ETC_PATH@"
+#cmakedefine COMMON_SHARE_PATH "@COMMON_SHARE_PATH@"
+
+
+#define BACKEND_NAME epsonscan2
+#define MSG_MODULE "epsonscan2"
+
+//AKBMODE (Manual)
+//#define AKBMODE
+//#define DRIVER_TITLE "Epson Scan 2"
+//#define DRIVER_NAME "epsonscan2"
+//#define V_NAME "epson"

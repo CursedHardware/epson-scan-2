@@ -1,0 +1,28 @@
+{
+	"Resolution": [
+		{
+			"Input": {
+				"array": [
+					"300",
+					"9600"
+				]
+			},
+			"Output": {
+				"array": [
+					"300",
+					"600"
+				]
+			}
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

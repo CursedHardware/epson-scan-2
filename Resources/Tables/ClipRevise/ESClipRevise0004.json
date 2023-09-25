@@ -1,0 +1,46 @@
+{
+	"ClipRevise": [
+		{
+			"MIN": [
+				{
+					"Radius": {
+						"int": "7"
+					},
+					"CorrectParam": {
+						"int": "10000"
+					}
+				}
+			],
+			"MAX": [
+				{
+					"Radius": {
+						"int": "10"
+					},
+					"CorrectParam": {
+						"int": "1500"
+					}
+				}
+			],
+			"END": [
+				{
+					"Radius": {
+						"int": "999990"
+					},
+					"CorrectParam": {
+						"int": "1500"
+					}
+				}
+			]
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

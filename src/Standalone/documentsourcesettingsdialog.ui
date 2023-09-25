@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DocumentSourceSettingsDialog</class>
+ <widget class="QDialog" name="DocumentSourceSettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>448</width>
+    <height>156</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MAINSETTING_046</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Resources/Icons/escan2_app.ico</normaloff>../../Resources/Icons/escan2_app.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>120</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Afm_Timeout_label">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>41</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONFIG_DOC_018</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="AfmTimeoutCombobox" name="Afm_Timeout_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>303</x>
+     <y>41</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Afm_Timeout_colon_label">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>41</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AfmTimeoutCombobox</class>
+   <extends>QComboBox</extends>
+   <header>afmtimeoutcombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>DocumentSourceSettingsDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
+     <y>129</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>223</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Afm_Timeout_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>DocumentSourceSettingsDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>368</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>223</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(int)</slot>
+ </slots>
+</ui>

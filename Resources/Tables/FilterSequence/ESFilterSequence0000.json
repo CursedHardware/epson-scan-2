@@ -1,0 +1,216 @@
+{
+	"filterSequence": [
+		[
+			[
+				{
+					"id": {
+						"int": "10000"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1000"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1049"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1048"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1043"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1007"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1039"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1008"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1033"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1126"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1040"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1042"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1023"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1128"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1002"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1003"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1004"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1036"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "1005"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			],
+			[
+				{
+					"id": {
+						"int": "10001"
+					},
+					"uniqueSerial": {
+						"int": "0"
+					}
+				}
+			]
+		]
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

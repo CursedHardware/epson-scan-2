@@ -1,0 +1,100 @@
+{
+	"DustRemoval": [
+		{
+			"Low": [
+				{
+					"LowBrightnessMin": {
+						"int": "10"
+					},
+					"LowBrightnessMax": {
+						"int": "100"
+					},
+					"ValidAreaSize": {
+						"int": "62"
+					},
+					"LDRatio": {
+						"int": "125"
+					},
+					"ValidLinearAreaSize": {
+						"int": "62"
+					},
+					"ValidDotAreaSize": {
+						"int": "25"
+					},
+					"PixelSizeHigh": {
+						"int": "2"
+					},
+					"PixelSizeOverHigh": {
+						"int": "8"
+					}
+				}
+			],
+			"Middle": [
+				{
+					"LowBrightnessMin": {
+						"int": "10"
+					},
+					"LowBrightnessMax": {
+						"int": "100"
+					},
+					"ValidAreaSize": {
+						"int": "125"
+					},
+					"LDRatio": {
+						"int": "125"
+					},
+					"ValidLinearAreaSize": {
+						"int": "125"
+					},
+					"ValidDotAreaSize": {
+						"int": "50"
+					},
+					"PixelSizeHigh": {
+						"int": "2"
+					},
+					"PixelSizeOverHigh": {
+						"int": "8"
+					}
+				}
+			],
+			"High": [
+				{
+					"LowBrightnessMin": {
+						"int": "10"
+					},
+					"LowBrightnessMax": {
+						"int": "100"
+					},
+					"ValidAreaSize": {
+						"int": "250"
+					},
+					"LDRatio": {
+						"int": "125"
+					},
+					"ValidLinearAreaSize": {
+						"int": "250"
+					},
+					"ValidDotAreaSize": {
+						"int": "100"
+					},
+					"PixelSizeHigh": {
+						"int": "2"
+					},
+					"PixelSizeOverHigh": {
+						"int": "8"
+					}
+				}
+			]
+		}
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

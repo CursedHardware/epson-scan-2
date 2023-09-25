@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScanningDialog</class>
+ <widget class="QDialog" name="ScanningDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>121</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PROGRESS_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QProgressBar" name="scan_progressBar">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>50</y>
+     <width>321</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="maximum">
+    <number>0</number>
+   </property>
+   <property name="value">
+    <number>-1</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>86</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PROGRESS_017</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progress_label">
+   <property name="geometry">
+    <rect>
+     <x>34</x>
+     <y>20</y>
+     <width>231</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PROGRESS_008</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>cancel_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ScanningDialog</receiver>
+   <slot>Cancel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>180</x>
+     <y>60</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Cancel()</slot>
+ </slots>
+</ui>

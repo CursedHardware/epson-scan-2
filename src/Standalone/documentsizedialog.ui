@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DocumentSizeDialog</class>
+ <widget class="QDialog" name="DocumentSizeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>256</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CUSTOMSIZE_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QLabel" name="Width_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CUSTOMSIZE_006</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Length_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>65</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CUSTOMSIZE_007</string>
+   </property>
+  </widget>
+  <widget class="DetectPaperCheckBox" name="Det_Paper_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CUSTOMSIZE_013</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Close_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>218</y>
+     <width>131</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TC_PREVIEW_001</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="units_stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>177</x>
+     <y>39</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page_7">
+    <widget class="QLabel" name="w_inchi_label">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>0</y>
+       <width>171</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CUSTOMSIZE_009</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="inchi_stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page_13">
+      <widget class="QLabel" name="l_inchi_label">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>10</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>CUSTOMSIZE_009</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_14"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_10">
+    <widget class="QLabel" name="w_mm_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>171</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CUSTOMSIZE_008</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="mm_stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_11">
+      <widget class="QLabel" name="l_mm_label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>CUSTOMSIZE_008</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_12"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="WidthDoubleSpinBox" name="Width_doubleSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>39</y>
+     <width>71</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="buttonSymbols">
+    <enum>QAbstractSpinBox::NoButtons</enum>
+   </property>
+   <property name="decimals">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="Length_stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>99</x>
+     <y>65</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_8">
+    <widget class="LengthDoubleSpinBox" name="Length_doubleSpinBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="buttonSymbols">
+      <enum>QAbstractSpinBox::NoButtons</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_9">
+    <widget class="QLabel" name="Auto_Detect_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>1</y>
+       <width>251</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CUSTOMSIZE_010</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="Width_colon_label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>42</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string notr="true">:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Length_colon_label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>68</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string notr="true">:</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DetectPaperCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>detectpapercheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>WidthDoubleSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>widthdoublespinbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LengthDoubleSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>lengthdoublespinbox.h</header>
+   <slots>
+    <slot>onValueChangedBool(bool)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Close_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>DocumentSizeDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>189</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Det_Paper_checkBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>DocumentSizeDialog</receiver>
+   <slot>onValueChangedBool(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>122</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(double)</slot>
+  <slot>onValueChangedBool(bool)</slot>
+ </slots>
+</ui>

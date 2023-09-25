@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NetworkDeviceSelectDialog</class>
+ <widget class="QDialog" name="NetworkDeviceSelectDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ADDNETSCANNER_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="Connect_pushButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>194</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SCANNERSETTING_010</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Add_pushButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>194</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDNETSCANNER_013</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Delete_pushButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>194</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DELETESETTING_002</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Address_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>156</y>
+     <width>221</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>64</number>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Address_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>156</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDNETSCANNER_012</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="IP_List_tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>21</y>
+     <width>341</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::SingleSelection</enum>
+   </property>
+   <property name="selectionBehavior">
+    <enum>QAbstractItemView::SelectItems</enum>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="sortingEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="rowCount">
+    <number>0</number>
+   </property>
+   <property name="columnCount">
+    <number>1</number>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>16</number>
+   </attribute>
+   <attribute name="verticalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>ADDNETSCANNER_009</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignLeading|AlignVCenter</set>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="Cancel_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>286</x>
+     <y>194</y>
+     <width>98</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADDNETSCANNER_014</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Address_colon_label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>158</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string notr="true">:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Connect_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Address_lineEdit</sender>
+   <signal>textEdited(QString)</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>LineEditFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>210</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Add_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>129</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Delete_pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>IP_List_tableWidget</sender>
+   <signal>itemSelectionChanged()</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>AvailableDeleteButton()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>202</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Connect_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Cancel_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>PushButtonAction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Cancel_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>NetworkDeviceSelectDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>LineEditFinished()</slot>
+  <slot>PushButtonAction()</slot>
+  <slot>AvailableDeleteButton()</slot>
+ </slots>
+</ui>

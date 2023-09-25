@@ -1,0 +1,144 @@
+{
+	"USM": [
+		[
+			[
+				{
+					"Resolution": {
+						"int": "99"
+					},
+					"Strength": {
+						"int": "625000"
+					},
+					"Radius": {
+						"int": "8"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "799"
+					},
+					"Strength": {
+						"int": "1060000"
+					},
+					"Radius": {
+						"int": "8"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "999"
+					},
+					"Strength": {
+						"int": "1186875"
+					},
+					"Radius": {
+						"int": "9"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "2199"
+					},
+					"Strength": {
+						"int": "2634375"
+					},
+					"Radius": {
+						"int": "15"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "3999"
+					},
+					"Strength": {
+						"int": "5010000"
+					},
+					"Radius": {
+						"int": "24"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "4399"
+					},
+					"Strength": {
+						"int": "5265625"
+					},
+					"Radius": {
+						"int": "25"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "4799"
+					},
+					"Strength": {
+						"int": "5805000"
+					},
+					"Radius": {
+						"int": "27"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			],
+			[
+				{
+					"Resolution": {
+						"int": "99999"
+					},
+					"Strength": {
+						"int": "6318750"
+					},
+					"Radius": {
+						"int": "30"
+					},
+					"Clipping": {
+						"int": "8"
+					}
+				}
+			]
+		]
+	],
+	"__version": [
+		{
+			"Data Version": {
+				"string": "1.00"
+			},
+			"Format Version": {
+				"string": "1.00"
+			}
+		}
+	]
+}

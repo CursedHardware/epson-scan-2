@@ -1,0 +1,107 @@
+{
+    "shouldKeepControlMode" : {
+        "array_str" : [
+            "DS-50000",
+            "DS-60000",
+            "DS-70000",
+            "DS-5500",
+            "DS-6500",
+            "DS-7500"
+        ]
+    },
+    "shouldSyncFunctionalUnit" : {
+        "array_str" : [
+            "DS-50000",
+            "DS-60000",
+            "DS-70000",
+            "DS-5500",
+            "DS-6500",
+            "DS-7500"
+        ]
+    },
+    "shouldZeroClearEdgeFillForFB" : {
+        "array_str" : [
+            "DS-50000",
+            "DS-60000",
+            "DS-70000",
+            "DS-5500",
+            "DS-6500",
+            "DS-7500"
+        ]
+    },
+    "shouldIgnoreDateAndTime" : {
+        "array_str" : [
+            "FF-640",
+            "DS-860",
+            "DS-760",
+            "DS-510",
+            "DS-520",
+            "DS-560",
+            "DS-50000",
+            "DS-60000",
+            "DS-70000",
+            "DS-5500",
+            "DS-6500",
+            "DS-7500"
+        ]
+    },
+    "shouldObserveButtonWithCommand" : {
+        "array_str" : [
+            "DS-30"
+        ]
+    },
+    "shouldAlwaysWaitAtIMGRequest" : {
+        "array_str" : [
+            "DS-770",
+            "DS-780N"
+        ]
+    },
+    "shouldSendStatAfterADFScan": {
+        "array_str": [
+            "FF-640",
+            "DS-860",
+            "DS-760"
+        ]
+    },
+    "customButtonObservationInterval" : [
+        {
+            "DS-30" : {
+                "int" : 250
+            }
+        }
+    ],
+    "shouldIgnoreCancelResponse" : {
+        "array_str" : [
+            "DS-30"
+        ]
+    },
+    "supportedLogFunctions" : [
+        {
+            "DS-30" : [
+                {
+                    "Lamp1Counter" : {
+                        "boolean" : false
+                    },
+                    "Lamp2Counter" : {
+                        "boolean" : false
+                    },
+                    "FlatbedScanCounter" : {
+                        "boolean" : false
+                    },
+                    "SimplexScanCounter" : {
+                        "boolean" : true
+                    },
+                    "DuplexScanCounter" : {
+                        "boolean" : false
+                    },
+                    "PickupRollerCounter" : {
+                        "boolean" : false
+                    },
+                    "PowerOffTime" : {
+                        "boolean" : false
+                    }
+                }
+            ]
+        }
+    ]
+}

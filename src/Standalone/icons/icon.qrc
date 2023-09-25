@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>btn_config@2x.png</file>
+        <file>update4.png</file>
+        <file>savefolder.png</file>
+        <file>yokot.png</file>
+        <file>tatet.png</file>
+        <file>escan2_app.ico</file>
+        <file>btn_help.png</file>
+        <file>bmp_mss_image@2x.png</file>
+        <file>btn_multipage_rotate_left90@2x.png</file>
+        <file>btn_multipage_rotate_right90@2x.png</file>
+        <file>btn_multipage_delete@2x.png</file>
+    </qresource>
+</RCC>

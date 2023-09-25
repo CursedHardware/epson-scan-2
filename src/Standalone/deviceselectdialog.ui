@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeviceSelectDialog</class>
+ <widget class="QDialog" name="DeviceSelectDialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>113</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MENU_001</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/escan2_app.ico</normaloff>:/escan2_app.ico</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="Select_label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LINUX_DEVICESELECT_001</string>
+   </property>
+  </widget>
+  <widget class="InitDeviceSelectCombobox" name="Select_Device_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>281</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Connecting_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>76</y>
+     <width>91</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LINUX_DEVICESELECT_002</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="Update_toolButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>331</x>
+     <y>35</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons/icon.qrc">
+     <normaloff>:/update4.png</normaloff>:/update4.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>InitDeviceSelectCombobox</class>
+   <extends>QComboBox</extends>
+   <header>initdeviceselectcombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Select_Device_comboBox</sender>
+   <signal>activated(int)</signal>
+   <receiver>DeviceSelectDialog</receiver>
+   <slot>onValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>56</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Connecting_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>DeviceSelectDialog</receiver>
+   <slot>PushEventButton()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>264</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>56</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Update_toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>DeviceSelectDialog</receiver>
+   <slot>PushEventButton()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>56</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onValueChanged(int)</slot>
+  <slot>PushEventButton()</slot>
+ </slots>
+</ui>
